@@ -150,6 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458371529}
   - component: {fileID: 458371530}
+  - component: {fileID: 458371531}
   m_Layer: 0
   m_Name: MapMaker
   m_TagString: Untagged
@@ -195,6 +196,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   overlapPadding: 0.05
+--- !u!114 &458371531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458371528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3bb2a646c74884c976fcebc1e634a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onCorridors: []
+  _floatings: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
